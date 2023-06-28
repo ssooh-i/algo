@@ -28,7 +28,7 @@ public class p11403_Main {
         boolean[] visited;
 
         for(int i = 0; i < num; i++) { // 각 정점마다 탐색을 진행.
-            // 아래부터는 dfs 탐색.
+            // 아래부터는 dfs 탐색하는 식
             queue = new LinkedList<Integer>();
             visited = new boolean[num];
             queue.offer(i);
