@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class p2085_Main {
+public class p2085_Main { //사탕게임 브루트포스
     static int[][] board; // 게임판 배열
     static int N; // 게임판 크기
     static int maxCandies = 0; // 최대 사탕 개수
